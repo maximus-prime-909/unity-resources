@@ -4,6 +4,7 @@
 A repo to add general unity functionalities which are frequently reused in projects.
 
 ## Contents
+ Generic - PID Controller
  Scrolling 2D Background
  Add to list
 
