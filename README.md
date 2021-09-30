@@ -6,6 +6,7 @@ A repo to add general unity functionalities which are frequently reused in proje
 ## Contents
  Generic - PID Controller
  Scrolling 2D Background
+ Pause/resuming script from UI 
  Add to list
 
 ## Contributing
