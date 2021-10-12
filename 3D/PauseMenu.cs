@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
@@ -9,6 +7,7 @@ public class PauseMenu : MonoBehaviour
     public GameObject pauseMenuUI;
     [SerializeField] 
     public AudioSource UI_Audio;
+
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Escape))
@@ -23,6 +22,7 @@ public class PauseMenu : MonoBehaviour
             }
         }
     }
+
     void Pause()
     {
         pauseMenuUI.SetActive(true);
@@ -30,6 +30,7 @@ public class PauseMenu : MonoBehaviour
         gameIsPaused = true;
         UI_Audio.Play();
     }
+
     public void Resume()
     {
         pauseMenuUI.SetActive(false);
