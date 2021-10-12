@@ -1,16 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class pauseresume : MonoBehaviour
 {
     // Start is called before the first frame 
     [SerializeField] GameObject canvas;
     [SerializeField] GameObject pauseButton;
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
